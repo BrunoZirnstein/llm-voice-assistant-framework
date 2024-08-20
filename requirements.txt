@@ -1,0 +1,57 @@
+# General requirements
+pyaudio==0.2.14
+python-dotenv==1.0.0
+numpy==1.26.3
+pydub==0.25.1
+
+# Audio Detection
+SpeechRecognition==3.10.1
+## VAD
+### WebRTCVAD
+webrtcvad==2.0.10
+### SileroVAD
+torch
+torchaudio
+numpy
+soundfile
+tqdm
+## Porcupine Wake Word Model
+pvporcupine==3.0.1
+
+# Audio Transcription
+## Google Cloud Speech API
+google-cloud-speech==2.23.0
+## Local OpenAI Whisper Model
+openai-whisper==20231117
+soundfile==0.12.1
+## Hosted OpenAI Whisper
+openai==1.12.0
+## Vosk API
+vosk==0.3.44
+
+# LLM
+## Models
+langchain-openai==0.0.5
+## Huggingface
+text-generation==0.6.1
+transformers==4.37.2
+numexpr==2.9.0
+sentencepiece==0.1.99
+## Libraries
+langchain==0.1.8
+langchainhub==0.1.14
+langchain_experimental==0.0.52
+
+# LLM Tools
+## Tavily Web Search API
+tavily-python==0.3.1
+## Azure Bing Web Search API
+azure-cognitiveservices-search-websearch==2.0.0
+## YOU Search API
+langchain-community==0.0.21
+
+# Audio Generation
+## Google Cloud Text-to-Speech API
+google-cloud-texttospeech==2.16.1
+## AWS Polly
+boto3==1.34.37
